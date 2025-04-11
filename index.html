@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./app.css" />
+   
+</head>
+<body>
+    <div class="App">
+        <div class="cen">
+            <h1>Fastest Quiz</h1>
+            <a href="#" id="start-quiz">Play</a>
+            <a href="/highscores.html">High Scores</a>
+        </div>   
+    </div>
+    <div class="quiz" style="display: none;"> 
+        <h2><span id="question-number" style="font-size: 2.8rem;"></span>. <span id="question">Question will appear here</span></h2>  
+        <div id="answer-buttons">
+            <button class="btn">Answer1</button>
+            <button class="btn">Answer2</button>
+            <button class="btn">Answer3</button>
+            <button class="btn">Answer4</button>
+        </div>
+        <div class ="button">
+            <button id="prev-btn">Previous</button>
+            <button id="next-btn">Next</button>
+            <button id="submit-btn" style="display: none;">Submit</button>
+            
+        </div>
+        <div class="score-board">Score: <span id="score">0</span></div>
+        <div id="timer" style="font-size: 1.8rem; margin-bottom: 1rem; color:rgb(120, 32, 32);">Time: <span id="time-left">15</span>s</div>
+
+    </div>    
+    <script src="./app.js"></script>
+   
+</body>
+</html>
