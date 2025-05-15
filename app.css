@@ -177,3 +177,37 @@ box-shadow: 0 0.4rem 1.4rem 0 rgb(60, 60, 160);
 transform: translate(1.0rem);
 transition: 150ms; 
 }
+
+@media (max-width: 768px) {
+    .App {
+        width: 95%;
+        height: auto;
+        padding: 40px 20px;
+        flex-direction: column;
+    }
+
+    .cen h1 {
+        font-size: 3rem;
+    }
+
+    .cen a {
+        width: 80%;
+        font-size: 1.5rem;
+    }
+
+    .quiz h2 {
+        font-size: 1.8rem;
+    }
+
+    .btn {
+        width: 90%;
+        font-size: 1.4rem;
+    }
+
+    #next-btn,
+    #prev-btn,
+    #submit-btn {
+        width: 8rem;
+        font-size: 1.1rem;
+    }
+}
